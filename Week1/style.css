@@ -1,0 +1,30 @@
+h1{
+    color:darkblue;
+    font-family:sans-serif;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+}
+
+h5 {
+    color: cornflowerblue;
+    font-family:fantasy;
+}
+ul {
+    list-style-image: url('images/pointer-icon.png');
+}
+ol{
+    list-style-type:upper-roman;
+}
+#menu_bar a{
+    text-decoration:none;
+    background-color:aquamarine;
+    padding: 5px;
+}
+#menu_bar a:hover{
+    background-color:azure;
+    color:#000000;
+    font-family:Helvetica, sans-serif;
+}
