@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <p id="outputText"></p>
+    <script>
+        var exampleVar = 12;
+        variableScope();
+
+        function variableScope()
+        {
+            document.getElementById("outputText").innerHTML = exampleVar;
+        }
+    </script>
+</body>
+</html>
